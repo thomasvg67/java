@@ -40,13 +40,13 @@ System.out.println("Enter details of employee "+(i+1));
 e1[i]=new Emp();
 e1[i].getdata();
 }
-System.out.println("Employee details are:");
+System.out.println("Employee details are :");
 for ( i = 0; i <n; i++)
 {
-System.out.println("Details of employee "+(i+1)+ " are:");
+System.out.println("Details of employee "+(i+1)+ " are :");
 e1[i].display();
 }
-System.out.println("Enter employee id to be searched for:");
+System.out.println("Enter employee id to be searched for :");
 a=sc1.nextInt();
 for(i=0;i<n;i++)
 {
@@ -56,7 +56,7 @@ fl=1;
 break;
 }
 }
-System.out.println("details of corresponding employee are:");
+System.out.println("details of corresponding employee are :");
 e1[i].display();
 }
 }
